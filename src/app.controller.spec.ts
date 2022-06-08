@@ -13,9 +13,9 @@ describe('AppController', () => {
   });
 
   describe('getHello', () => {
-    it('should return "Maxchat AutoDeploy Work in Action Github!"', () => {
+    it('should return "Maxchat!"', () => {
       const appController = app.get<AppController>(AppController);
-      expect(appController.getHello()).toBe('Maxchat AutoDeploy Work in Action Github!');
+      expect(appController.getHello()).toBe('Maxchat!');
     });
   });
 });
