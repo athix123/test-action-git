@@ -25,7 +25,7 @@ jobs:
 
       - name: Build application
         run: npm run build
-      
-      - name: Restart server application
-        with: 
-              script: /home/max-dev/action-runners/deploy.sh
+
+      - name: Run Script Service
+        run: sh ./github-actions-script.sh
+
