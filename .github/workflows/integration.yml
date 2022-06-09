@@ -27,4 +27,6 @@ jobs:
         run: npm run build
 
       - name: Run Script Service
-        run:  sudo pm2 restart test-action
+        run:  |
+            chmod +x ./github-actions-script.sh
+            bash ./github-actions-script.sh
