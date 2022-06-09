@@ -1,0 +1,1 @@
+sudo systemctl restart max-dev
