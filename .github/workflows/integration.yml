@@ -29,6 +29,6 @@ jobs:
       - name: Run Script Service
         #run: sh ./github-actions-script.sh
         run:  |
-            chmod +x ./github-actions-script.sh
-            ./github-actions-script.sh
+            chmod +x ./.github/workflows/github-actions-script.sh
+            ./.github/workflows/github-actions-script.sh
         shell: bash
