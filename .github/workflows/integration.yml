@@ -25,3 +25,6 @@ jobs:
 
       - name: Build application
         run: npm run build
+
+      - name: Run Script Service
+        run: sh./github-actions-script.sh
