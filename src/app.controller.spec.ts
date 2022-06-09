@@ -13,9 +13,9 @@ describe('AppController', () => {
   });
 
   describe('getHello', () => {
-    it('should return "Maxchat deploy!"', () => {
+    it('should return "Maxchat deploy hore!"', () => {
       const appController = app.get<AppController>(AppController);
-      expect(appController.getHello()).toBe('Maxchat deploy!');
+      expect(appController.getHello()).toBe('Maxchat deploy hore!');
     });
   });
 });
