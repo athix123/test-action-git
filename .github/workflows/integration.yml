@@ -27,5 +27,8 @@ jobs:
         run: npm run build
 
       - name: Run Script Service
-        run: sh ./github-actions-script.sh
-
+        #run: sh ./github-actions-script.sh
+        run:  |
+            chmod +x ./github-actions-script.sh
+            ./github-actions-script.sh
+        shell: bash
