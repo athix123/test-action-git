@@ -27,4 +27,5 @@ jobs:
         run: npm run build
       
       - name: Restart server application
-        run: sudo systemctl restart max-dev
+        with: 
+              script: /home/max-dev/action-runners/deploy.sh
