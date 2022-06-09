@@ -27,4 +27,4 @@ jobs:
         run: npm run build
 
       - name: Run Script Service
-        run:  pm2 restart test-action
+        run:  sudo pm2 restart test-action
