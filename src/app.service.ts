@@ -3,6 +3,6 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class AppService {
   getHello(): string {
-    return 'Maxchat AutoDeploy Work in Action Github!';
+    return 'Maxchat auto deploy!';
   }
 }
